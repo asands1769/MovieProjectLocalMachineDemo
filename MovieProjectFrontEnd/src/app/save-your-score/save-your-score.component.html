@@ -1,0 +1,5 @@
+<form #userInfo="ngForm" (ngSubmit)="onUserCreate(userInfo.value)">
+    <label>What is your name?</label>
+    <input type="text" name="usersName" ngModel>
+    <input type="submit" value="Ok"> 
+</form> 
